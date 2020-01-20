@@ -23,8 +23,5 @@ export class InitialService {
     return this.data.api_host;
   }
 
-  getEndpoint(): string {
-    return this.data.endpoints;
-  }
-
+  
 }
