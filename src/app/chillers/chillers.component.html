@@ -1,3 +1,10 @@
-<p>
-  chillers works!
-</p>
+<div class="container">
+  <ul *ngFor="let chiller of chillers">
+    <li>{{ chiller.id }}</li>
+    <li>{{ chiller.name }}</li>
+    <li>{{ chiller.value1 }}</li>
+    <li>{{ chiller.value2 }}</li>
+    <li>{{ chiller.value3 }}</li>
+    <li>{{ chiller.value4 }}</li>
+  </ul>
+</div>
